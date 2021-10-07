@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.enter-user-name {
+  border: 3px solid lightgreen;
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  /*   color: lightgreen; */
+  text-transform: capitalize;
+  margin: 10px;
+}
+
+button {
+  border: 3px solid lightgreen;
+  background-color: white;
+  color: green;
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.4s all;
+  color: white;
+  background-color: green;
+}
+.first-country,
+.second-country {
+  font-size: 35px;
+  font-family: "Roboto Mono", monospace;
+  color: green;
+}
+
+.probability {
+  font-size: 35px;
+  font-family: "Roboto Mono", monospace;
+  color: green;
+}
+
+body {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  /*   justify-content: center; */
+  align-items: center;
+  padding: 50px;
+}
+
+.errorMsg {
+  font-size: 35px;
+  font-family: "Roboto Mono", monospace;
+  color: red;
+}
